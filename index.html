@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head> <title>HEY</title></head>
+<body>
+  
+             <div id="Jim">
+                <div class="Jim0">
+                    
+                </div>
+                 
+              <div class="Jim1">
+                 <p>DANKJEWEL!
+         </p>
+                 
+                  
+              </div>
+              
+               <div class="Jim2">
+               <p><br>DANKJEWEL!
+         </p>
+                </div>
+                <div class="Jim3"> <!-- Once Jim1, Jim2 and Jim3 come into the bar...-->
+                    <p><br> DANKJEWEL!
+                        
+                    </p>
+                </div>
+                <div class="Jim33">
+                    
+                </div>
+                <style>
+                    #Jim { 
+                        background-color: #ffdcdc;
+                        width: 800px;
+                        height: 800px;
+                        margin: 50px;
+                        
+              
+border: 6px solid pink;
+
+                        position: absolute;
+                top: 100px;
+                left: 250px;
+                        
+                    }
+                    #Jim:hover{
+                        background-color: azure;
+                    }
+                    .Jim0{
+                        height: 400px;
+                        width: 400px;
+                         border-radius: 100%;
+                        background-color: antiquewhite;
+                     position: absolute;
+                top: 200px;
+                left: 200px;  
+                    }
+                    .Jim0:hover {
+                        background-color: green;
+                    }
+                    
+                 .Jim1   {
+            
+
+
+font-family: Helvetica-Bold;
+font-size: 72px;
+color: #103718;
+text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+            position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                    }
+                    .Jim1:hover {
+                       color: aquamarine;
+                    }
+                    
+            
+                    .Jim2 {
+                        
+font-family: Helvetica-Bold;
+font-size: 72px;
+color: #417505;
+text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+                 position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;       
+            
+                    }
+                     .Jim2:hover {
+                       color: yellow;
+                    }
+                    .Jim3{
+                        
+                
+
+font-family: Helvetica-Bold;
+font-size: 72px;
+color: #B8E986;
+text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+                       position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;     
+                    }
+                    
+                    .Jim3:hover {
+                       color: indianred;
+                    }
+                    
+                 </style>
+                 
+        <div id="app-5">
+  <p>{{ message }}</p>
+  <p>{{clicks}}</p>
+  <button v-on:click="reverseMessage">Reverse Message</button>
+  <button v-on:click="clicks++">Click</button>
+</div>
+
+
+<script>
+    var app5 = new Vue({
+  el: '#app-5',
+  data: {
+    message: 'Hello Ksenia!',
+      clicks: 0
+  },
+  methods: {
+      
+    reverseMessage: function () {
+      this.message = this.message.split('').reverse().join('')
+    }
+  }
+})
+    </script>
+    </div>
+    
+</body>
+</html>
