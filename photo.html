@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+  </head>  
+    <body>
+    
+      <div class="line"></div>
+       <p><strong>#PHOTOGRAPHY</strong> <br> <br><br>I played around with different ways <br>to make a positive out of a negative on <br>an abscrat image, tried putting paper <br> on paper to make prevent the light from <br>reaching  the original paper and even<br> discovered inversion of the image, <br>while my paper fell inside the camera. </p>
+        
+         <div class="photo-grid">
+         <img class="photo" src="photo1.jpg">
+       <img class="photo" src="photo2.jpg">
+       <img class="photo" src="photo3.jpg">
+       <img class="photo" src="photo4.jpg">
+       <img class="photo" src="photo5.jpg">
+       <img class="photo" src="photo6.jpg">
+       <img class="photo" src="photo7.jpg">
+       <img class="photo" src="photo8.jpg">
+       <img class="photo" src="photo9.jpg">
+       <img class="photo" src="photo10.jpg">
+
+      </div>
+
+        <style>
+            
+            
+            
+            .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
+        margin: auto;
+        grid-gap: 20px;
+                position: absolute;
+                left: 500px;
+                top: 50px;
+    }
+    
+    .photo {
+        transition: all .3s;
+        display: flex;
+        width: 100%;
+                transform: scale(0.9);
+        opacity: 0.7
+
+    }
+    
+    .photo:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+            .line {
+                width:5px;
+                height: 300px;
+                position: absolute;
+                left:70px;
+                top: 150px;
+                background-color: black;
+                
+            }    
+            
+            p {
+                position: absolute;
+                left:100px;
+                top: 150px;
+                font-style: italic;
+                font-size: 18px;
+                font-family: "futura" ;
+            }
+            
+            
+        </style>
+        
+        
+        
+    </body>
+    
+</html>

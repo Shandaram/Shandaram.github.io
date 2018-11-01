@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+  </head>  
+    <body>
+    
+      <img class="back" src="ris.jpg">
+      
+        
+         <div class="photo-grid">
+         <img class="photo" src="riso4.jpg">
+         <img class="photo" src="riso3.jpg">
+         <img class="photo" src="riso2.jpg">
+          <img class="photo" src="riso1.jpg">
+              
+        
+       
+      
+
+      </div>
+
+        <style>
+            
+            .back {
+                width:100%;
+                height:1600px;
+            }
+            
+            .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
+        margin: auto;
+        grid-gap: 10px;
+                position: absolute;
+                left: 300px;
+                top: 200px;
+    }
+    
+    .photo {
+        transition: all .3s;
+        display: flex;
+        width: 100%;
+                transform: scale(0.9);
+        opacity: 1;
+
+    }
+    
+    .photo:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+            .line {
+                width:5px;
+                height: 500px;
+                position: absolute;
+                left:70px;
+                top: 150px;
+                background-color: black;
+                
+            }    
+            
+            p {
+                position: absolute;
+                left:100px;
+                top: 150px;
+                font-style: italic;
+                font-size: 18px;
+                font-family: "futura";
+            }
+            
+            
+        </style>
+        
+        
+        
+    </body>
+    
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+  </head>  
+    <body>
+    
+      <div class="line"></div>
+       <p><strong>#PROTOTYPES</strong> <br> <br><br> #1 we always expect order and grid and <br> pages, and I wanted to deconstruct<br> this expectation <br><br><br>#2 the first form of a book was a scroll<br><br><br> #3 my research of the topic of immigration<br>and how can I impliment movement  </p>
+        
+         
+        
+         <div class="photo-grid">
+         <img class="photo" src="proto2.jpg">
+       <img class="photo" src="proto1.jpg">
+       <img class="photo" src="proto3.jpg">
+       <img class="photo" src="proto4.jpg">
+       <img class="photo" src="proto5.jpg">
+       <img class="photo" src="proto6.jpg">
+      
+
+      </div>
+
+        <style>
+            
+            
+            
+            .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
+        margin: auto;
+        grid-gap: 20px;
+                position: absolute;
+                left: 500px;
+                top: 50px;
+    }
+    
+    .photo {
+        transition: all .3s;
+        display: flex;
+        width: 100%;
+                transform: scale(0.9);
+        opacity: 0.7
+
+    }
+    
+    .photo:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+            .line {
+                width:5px;
+                height: 500px;
+                position: absolute;
+                left:70px;
+                top: 150px;
+                background-color: black;
+                
+            }    
+            
+            p {
+                position: absolute;
+                left:100px;
+                top: 150px;
+                font-style: italic;
+                font-size: 18px;
+                font-family: "futura";
+            }
+            
+            
+        </style>
+        
+        
+        
+    </body>
+    
+</html>
